@@ -1,0 +1,187 @@
+--------------------------------------------------------------------------------------------------The prompts I use when writing code-------------------------------------------------------------------------------------------------------
+
+Write the code that makes the background color black using html and css
+
+what is the rgba command in css
+
+how to add sidebars and navbars using html and css
+
+how can I add a picture to the background on the home screen
+
+write a code to set dark mode light mode in the navbar
+
+how can I add photos to the front page of the website that change over time
+
+the sidebar disappeared when I added an image to the background, how can I find a solution to this?
+
+create a button on your website interface
+
+make it go to the section with cityscapes when this button is clicked
+
+can you add texts on the homepage that will change over time
+
+blackout animation when changing images and photos on the home page and make it change slowly
+
+under the cover photo, set up areas for sharing photos of nature landscapes, sky views, cityscapes, historical places and animals, with equal distance between each other, and leave enough space between these headings
+
+set areas to share 8 photos for each category
+
+when hovering over photos, make them move closer to the screen with an animation and grow a certain amount
+
+How can I make the photos change when the arrow button is clicked between photos?
+
+When we press the button, how can we make it come back to the beginning when the last photo is displayed?
+
+How can I write the responsive part on the website with @media
+
+how to import libraries in css
+
+<div class="featured-content">
+          <img src="" alt="" />
+          <p id="featured-desc" class="featured-desc">
+            Each frame a world, ready to explore. Welcome.
+          </p>
+          <div class="featured-buttons">
+            <button class="Explore" onclick=scrollDown()>↓ ↓ Let's Explore ↓ ↓</button>
+          </div>
+        </div>   
+.featured-content {
+    background: url("Resimler/resim3.jpeg");
+    padding: 184px;
+    background-size: 100% 100%;
+
+    background-position: center;
+    background-attachment: fixed;
+}
+can you add the code to this code to make it change continuously in the background
+
+
+How can I make the sidebar and navbar come with the movement of the page when I scroll up and down
+
+How to change the color of a button when mouse hovers over it
+
+there is an icon that advances the pictures one by one on the site you made and when all the pictures are shown, it returns to the beginning again, but when I click on the button when I return to the beginning again, the pictures do not advance, how can I fix this?
+
+write short sentences that can be written on the home screen for a website with images of various landscapes
+
+Write short words describing a website with photos of nature, city, animals, sky.
+
+
+---------------------------------------------------------------------------------------------------------The prompts I use when creating images---------------------------------------------------------------------------------------------
+
+The grass on the ground, the trees lush and green, the sun just rising, create a realistic image.
+
+A deer drinking water from a stream in the forest
+
+A stream flowing through a forest with a rainbow in the sky
+
+realistic photo of bears fishing in a lake in the forest at sunset
+
+A realistic photo of a wooden house in the middle of a forest during winter, with sheep grazing nearby
+
+A realistic photo of a lake in the middle of the forest with the reflection of the red sky and a snowy mountain in front of the lake
+
+A realistic photograph of a man falling asleep leaning against a tree in a forest during a rainy fall season
+
+A photo of two lovers having a picnic in the middle of a meadow with a rainbow
+
+A realistic photo of a little boy running with his hands outstretched through a field of roses and daisies in a deep blue sky
+
+write the opening sentence of a website with various landscapes
+
+When I put a picture in the sidebar background, it started to not appear, what can I do for this?
+
+draw dragons attacking the Eiffel Tower
+
+Istanbul city in the 90s
+
+New York Times Square on a rainy day with people escaping the rain in a realistic view
+
+people from the Black Sea region dancing horon in the middle of a palace square in a realistic style
+
+Rio de Janeiro with people drinking coffee, highlighting the city's visuals
+
+Bagan city with dragons flying overhead on a rainy day in a realistic style
+
+Tokyo city with intense neon lights and people chatting with robots in a realistic style
+
+Florence city with storks smiling down at people while flying in the evening in a realistic style
+Kyoto city with fantasy heroes walking in the streets in a realistic style
+
+I want to create texts that change at a certain time interval using html css javascrpit can you help
+can you add animation to this code when changing texts
+
+Blue sky and lots of colorful butterflies in the sky
+
+Let there be a big bright moon and mars in the dark sky
+
+While most planets in the galaxy are visible from the sky, a child shows his father the planets in the sky with his hand
+
+Earth view of a pegasus flying towards a bright, large Saturn in a red sky
+
+create a realistic photo of uranus in a dark sky surrounded by tiny stars and this landscape is visible from earth
+
+Create a realistic photo of a galactic warship with neon lights in a dark sky and a spectacular sky around it as it flies towards the moon.
+
+a realistic photo of two lovers having dinner in a place with aurora borealis and neon colored stars in the sky
+
+create a photo of hot air balloons in a pinkish colored sky and stars in the sky shining in neon colors
+
+create a realistic image where nature and space coexist
+
+create a realistic, colorful image representing historical artifacts, animals, nature
+
+create a realistic photo with nature, sky and an animal
+
+create colorful, realistic images of nature, historical monuments, the sky and an animal
+
+create an image of large birds flying over the Taj Mahal at sunset
+
+create a photograph of spaceships with neon lights flying over the Bayon Temple at a moment when the sky is dark blue
+
+Create a realistic image of the Chinese Great Wall on a day when the sky is the color of smoke and there are people walking around taking photos.
+
+Create a realistic photo of a foggy sky with UFOs in the sky and aliens walking across the Golden Gate Bridge
+
+Create a realistic photo of luxury ships sailing past The Statue of Liberty in a dark, snowy sky with polar stars in the sky
+
+create an image of seagulls flying over the Hagia Sophia mosque at sunset
+
+create an image of dragons flying around the tower of paris with the sky red and flames coming out of their mouths
+
+Create a realistic photo of the ancient city of Machu Picchu in rainy weather with dragons flying over it
+
+draw a little fat kitten walking on a stream running through the forest
+
+create a photo of a cute puppy with its tongue sticking out, dressed as an astronaut on the surface of the moon
+
+create a realistic photo of cute little penguins looking up at the sky at a moment when the polar lights are in the sky
+
+create a photo of a rabbit on a spaceship traveling through the woods on a sunny day
+
+Create a realistic photo of a baby panda sitting under a tree in rainy weather eating bamboo
+
+Create a confused photo of a cute hamster with light brown color eating nuts
+
+create a photo of a large middle-aged lion smiling while playing with his children
+
+create a realistic photo of a cute parrot with colorful feathers on the branch of a big tree in the rainforest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+
+    font-family: "Electrolize", sans-serif;
+    background-color: black;
+    
+
+}
+
+.container {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    background-color: black;
+    height: 45px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 50px;
+}
+
+.sidebar {
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+
+}
+
+
+.logo {
+    font-size: 30px;
+    color: rgb(38, 38, 195);
+
+}
+
+.toggle {
+    width: 40px;
+    background-color: white;
+    height: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+
+
+}
+
+
+.toggle-icon {
+    color: goldenrod;
+
+}
+
+.toggle-ball {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    right: 1px;
+    transition: .5s ease all;
+}
+
+.content-wrapper {
+    margin-left: 20px;
+}
+
+.featured-content {
+    background: url("Resimler/resim3.jpeg");
+    padding: 184px;
+    background-size: 100% 100%;
+
+    background-position: center;
+    background-attachment: fixed;
+    animation: changeBackground 6s infinite;
+
+}
+
+@keyframes changeBackground {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+.featured-title {
+
+    width: 200px;
+}
+
+.featured-desc {
+
+    width: 500px;
+    color: black;
+    font-family: "Madimi One", sans-serif;
+    padding: 6px;
+    margin: 28px 0;
+    font-size: 50px;
+    font-style: normal;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+.featured-buttons{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.featured-buttons button {
+
+    padding: 13px 25px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    column-gap: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+.Manzara-Cesitleri {
+    margin: 25px 0 20px 50px;
+    padding: 20px;
+
+}
+
+
+.manzara-list-container {
+    margin-left: 70px;
+    margin-top: 10px;
+    
+}
+
+.manzara-list {
+    list-style: none;
+    padding: 0;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    transform: translate(0);
+    transition: 1s all ease-in-out;
+
+}
+
+.manzara-list-wrapper {
+    overflow: hidden;
+    position:relative;
+}
+
+.manzara-item {
+    position: relative;
+}
+
+.manzara-item:hover .manzara-item-buttons {
+    opacity: 1;
+}
+
+.manzara-list-title.active{
+
+    color:black;
+}
+
+
+.manzara-item:hover .manzara-item-img {
+    transform: scale(1.2);
+    margin: 0 40px;
+    opacity: 1;
+}
+
+.manzara-item-img {
+
+    width: 270px;
+    height: 260px;
+    object-fit: cover;
+    transition: 1s all ease-in-out;
+}
+
+.manzara-item-buttons {
+
+    
+    padding: 10px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10%;
+    left: 90px;
+    display: flex;
+    column-gap: 20px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+
+}
+
+.manzara-item-buttons i {
+    cursor: pointer;
+    opacity: 0.5;
+    font-size: 20px;
+    transition: 0.5s all ease;
+
+}
+
+.manzara-item-buttons i:hover {
+    opacity: 1;
+}
+
+.arrow{
+    width:100px;
+    display: flex;
+    font-size: 120px;
+    position:absolute;
+    right: 0;
+    top: 100px;
+    opacity: .5;
+    transition: .5s ease all;
+    cursor:pointer;
+}
+.arrow:hover{
+    opacity: 1;
+}
+
+.container.active{
+    background-color: white;
+
+}
+
+.navbar.active{
+
+    background-color: white;
+    color:black;
+}
+.sidebar.active{
+    background-color: white;
+}
+.sidebar i.active {
+    
+    color:black;
+}
+.toggle.active{
+    background-color: black;
+}
+
+.toggle-ball.active{
+    background-color: white;
+    transform:translateX(-20px);
+}
+
+
+@media only screen and (max-width: 600px){
+    .menu-container{
+        display: none;
+    }
+
+    .featured-title{
+
+        width :200px;
+    }
+
+    .featured-content{
+        height: 50vh;
+    }
+    .featured-desc{
+
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        max-width: 200px;
+        padding: 0;
+    }
+}
